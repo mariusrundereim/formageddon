@@ -1,5 +1,6 @@
 import CascadingSelect from "../../../components/ui/CascadingSelect";
 import Input from "../../../components/ui/Input";
+import Typography from "../../../components/ui/Typography";
 
 function FirstForm() {
   const options = [
@@ -27,9 +28,15 @@ function FirstForm() {
 
   return (
     <>
-      <section className="grid grid-cols-1 sm:grid-cols-2 bg-gray-100 min-h-screen max-w-7xl mx-auto">
+      <section className="grid grid-cols-1 sm:grid-cols-2 bg-gray-100 min-h-min max-w-7xl mx-auto p-8 rounded-2xl">
         <div className="p-4 sm:p-12">
-          <h1 className="text-2xl">Første skjema</h1>
+          <Typography
+            variant="heading"
+            color="text-emerald-800"
+            fontSize="text-3xl"
+          >
+            Første skjema
+          </Typography>
           <ul className="list-disc pl-6 mt-4">
             <li>Skjemaet demonstrerer gjenbrukbare komponenter</li>
             <li>Inkluderer sub-selection for dynamikk av valg</li>
