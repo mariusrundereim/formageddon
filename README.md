@@ -9,6 +9,8 @@ Formageddon er et prosjekt for å lage skjemaer, med fokus på gjenbrukbare komp
 - **TypeScript** - for type-sikkerhet
 - **Vite** - for rask utvikling
 
+[![Stack](https://skillicons.dev/icons?i=react,ts,tailwind,vite)](https://skillicons.dev)
+
 ## Fokusområder
 
 - Skjema er kjempe gøy
@@ -40,3 +42,13 @@ For å komme i gang med Formageddon, følg disse trinnene:
    npm run dev
    ```
 5. Åpne nettleseren og gå til `http://localhost:3000` for å se prosjektet.
+
+## Nettsted
+
+[Formageddon](https://formageddon1.netlify.app/)
+
+## Bidra
+
+Flere bidragsytere er alltid gøy!
+
+Hvis du har forslag til forbedringer eller nye funksjoner, vennligst opprett en issue eller send en pull request.
