@@ -14,7 +14,8 @@ function App() {
           Formageddon
         </Typography>
         <Typography variant="paragraph" color="text-white" fontSize="text-xl">
-          Demonstrate form and reusable components
+          Skjema er en viktig del av webapplikasjoner. Dette prosjektet skal
+          bare være gøy!
         </Typography>
       </header>
       <section className="bg-slate-900  space-y-8 py-8">
