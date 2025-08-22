@@ -1,69 +1,42 @@
-# React + TypeScript + Vite
+# Formageddon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Formageddon er et prosjekt for å lage skjemaer, med fokus på gjenbrukbare komponenter og grid-system i TailwindCss.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - for de beste verktøyet
+- **TailwindCss** - for styling
+- **TypeScript** - for type-sikkerhet
+- **Vite** - for rask utvikling
 
-## Expanding the ESLint configuration
+## Fokusområder
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Skjema er kjempe gøy
+- Gjenbrukbare komponenter
+- Mer bruk av Grid i CSS
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Installasjon
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+For å komme i gang med Formageddon, følg disse trinnene:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Klon dette repoet:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+   ```bash
+   git clone git@github.com:mariusrundereim/formageddon.git
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Naviger til prosjektmappen:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+   ```bash
+   cd formageddon
+   ```
+
+3. Installer avhengigheter:
+   ```bash
+   npm install
+   ```
+4. Kjør!
+   ```bash
+   npm run dev
+   ```
+5. Åpne nettleseren og gå til `http://localhost:3000` for å se prosjektet.
